@@ -1,0 +1,11 @@
+apiVesion: v1
+kind: pod
+metadata:
+  name: labels
+  labels: 
+    course: k8
+    trainer: vishnu
+spec:
+  container: 
+  - name: nginx
+    image: nginx    
