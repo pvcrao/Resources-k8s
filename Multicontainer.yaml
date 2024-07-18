@@ -4,8 +4,8 @@ metadata:
   name: multicontaner
 spec: 
   containers:
-    -name: nginx
-     image: nginx
-    -name: alma
-     image: "almalinux:9"   
-     command: ["sleep","2000"]
+    - name: nginx
+      image: nginx:latest
+    - name: alma
+      image: "almalinux:9"   
+      command: ["sleep","2000"]
