@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: daws
+data:
+  cource: "devops with aws"
+  trainer: "vishnupolisetti"
+  github: "https://github.com/daws-78s/k8-resources"
+   
+
+
+
